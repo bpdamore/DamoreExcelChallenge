@@ -1,24 +1,23 @@
 # DamoreExcelChallenge
 Excel Challenge
 
-1. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
+## Summary of Goal
 
-- The end of Q1 through the end of Q2 is a great time to have a kickstarter campaign. The difference between successful and unsuccessful campaigns is higher than the rest of the year. 
-- People love things that they can connect with others over. Board Games, multi-episode TV shows, theatre shows, indie bands, podcasts, and documentaries. These are all things that either bring people together, or can start a conversation. 
-- Nobody wants to help someone start a restaurant or business. They want a product, but they don't want a business. 
+This excel workbook was given without any analysis done, and without any formatting. 
+There were a few goals:
+- Calculate the percent of funding each project received, and make it easy to understand visually. 
+- With conditional formatting, make it easy to spot which projects failed, were canceled, or were live.
+- Create pivot tables and graphs to visualize the relationship between Categories and their successfulness, Subcategories and their successfulness, Outcomes based on launch date, and how the Goal amount impacted the outcome of the campaign. 
+- Look at the difference between Successful and Failed campaigns, and see how their backers impacted the outcome of the campaign.
 
-2. What are some limitations of this dataset?
-- It doesn't include any information about the donors. We don't know where they live, what age range they are in, etc. That could help with marketing future campaigns. 
+## Conclusions
 
-3. What are some other possible tables and/or graphs that we could create?
-- We could include whether or not it was a staff pick to see if that had any potential influence on the success or failure of a campaign. 
+When looking at the the outcomes based on the launch date, I noticed that typically the amount of canceled projects remain pretty steady throughout the calendar year. The failed and successful campaigns however were much more varied. In the start of January, there are only slightly more successful campaigns than there are failed ones. From February to May there is the widest gap between Successful and failed campaigns. That gap closes in quickly through the month of May, and stays pretty tight through the rest of the calendar year. 
 
-BONUS Pt.2
+People love to share experiences with one another. This is true throughout most of the subcategories in kickstarter campaigns. If there is a board game, multi-episode tv show, theatre show, indie band, or podcast that is being funded, people are much more likely to support it because they can connect with others through. Those campaigns spark conversations, get people together to have fun, or create an experience to be shared. 
 
-1. Use your data to determine whether the mean or the median summarizes the data more meaningfully.
+People also would rather pay money for a product, rather than to start a business or food truck. Being able to have something in your kitchen that can be useful is much more meaningful and practical than helping to fund a restaurant. 
 
-- I would say the Mean summarizes the data more meaningfully. It really shows the gap between the average successful campaign and the average failed one. You need a lot of donors in order to have a successful kickstarter campaign. 
+When looking at the impact that backers had on a business, the median seemed to reflect the outcome of the campaign more than the mean. If someone were to give a $10,000 pledge, that would skew the mean quite a bit, so it is not a fair way of comparing the two. 
 
-2. Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
-
-- There is more variability in successful campaigns. This makes total sense, due to the larger number of backers. When there are more people they are all going to have different budgets and will donate differently. 
+The variance of the successful campaigns were larger than for the failed ones due to the larger number of people backing them. In any large group of people you are going to have variability in age, wealth, and budget, so it only makes sense that the variability would be larger. 
